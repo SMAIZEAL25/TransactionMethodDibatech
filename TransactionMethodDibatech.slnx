@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Assignment/Assignment.csproj" Id="0ca71182-f53b-4314-9bca-ed249ce568fc" />
+  <Project Path="AssignmentTransferMethod/AssignmentTransferMethod.csproj" Id="a9fe5770-e62f-4540-91a8-2764fef37299" />
+  <Project Path="Loop Assignment/Loop Assignment.csproj" Id="6eb41d6b-2dae-423f-be89-0c3c5622b538" />
+  <Project Path="Question2 Conditional Statement/Question2 Conditional Statement.csproj" Id="e6639970-7d46-473d-8c06-9636877395f6" />
+</Solution>
