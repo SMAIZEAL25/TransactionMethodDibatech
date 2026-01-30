@@ -28,6 +28,13 @@ namespace AssignmentTransferMethod.DAL
             modelBuilder.Entity<Account>()
         .Property(a => a.RowVersion)
         .IsRowVersion();
+
+            modelBuilder.Entity<AccountCreation>()
+      .HasKey(c => c.IdempotencyKey);
+
+            modelBuilder.Entity<AccountCreation>()
+                .HasIndex(c => c.IdempotencyKey)
+                .IsUnique();
         }
     }
 }

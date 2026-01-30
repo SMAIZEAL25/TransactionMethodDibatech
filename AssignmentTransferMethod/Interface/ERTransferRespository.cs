@@ -8,7 +8,7 @@ namespace AssignmentTransferMethod.Use_Case.Interface
 {
     public class ERTransferRespository : ITransferRepository
     {
-        private readonly TransferMethodDB _transferMethodDB;
+        public readonly TransferMethodDB _transferMethodDB;
 
         public ERTransferRespository(TransferMethodDB transferMethodDB)
         {
